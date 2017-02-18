@@ -31,7 +31,7 @@ public class Lab1 {
 			double AnnualReturnTwo = input.nextDouble();
 			System.out.print("\n");
 			
-			while (AnnualReturnTwo > 20 | AnnualReturnTwo < 0) 
+			while (AnnualReturnTwo > 3 | AnnualReturnTwo < 0) 
 			{
 				System.out.print("Invalid Input, enter new value: ");
 				AnnualReturnTwo = input.nextDouble();
